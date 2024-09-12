@@ -25,7 +25,7 @@ def test_caculate_candy_total_returns_total_sales():
     assert total == 395.0
 
 
-@pytest.mark.skip("remove this line when working on calculate_average_sales")
+# @pytest.mark.skip("remove this line when working on calculate_average_sales")
 def test_caculate_candy_average_no_data_returns_0():
     sales_totals = {}
 
@@ -34,7 +34,7 @@ def test_caculate_candy_average_no_data_returns_0():
     assert average == 0.0
 
 
-@pytest.mark.skip("remove this line when working on calculate_average_sales")
+# @pytest.mark.skip("remove this line when working on calculate_average_sales")
 def test_caculate_candy_average_returns_average():
     sales_totals = {
         "Junior Mints": { "quantity": 100, "price": 2.0 },
